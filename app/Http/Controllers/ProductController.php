@@ -20,7 +20,7 @@ class ProductController extends Controller
 
         ]);
         
-        // Use the validated data to create a student
+        // Use the validated data to create a product
         $product = Product::create($validated);
 
         //Redirected back with success message
