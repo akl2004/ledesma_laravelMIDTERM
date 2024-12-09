@@ -26,7 +26,7 @@
                             <input type="number" id="price" name="price" value="{{ old('price', $product->price) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                         </div>
                         <div>
-                            <label for="stockquantity" class="block text-gray-700">Address</label>
+                            <label for="stockquantity" class="block text-gray-700">Stock Quantity</label>
                             <input type="number" id="stockquantity" name="stockquantity" value="{{ old('stockquantity', $product->stockquantity) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                         </div>
                         <div>
